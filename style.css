@@ -1,5 +1,6 @@
 /* The code below centers the text of all h1's on the page. */
 h1 {
+    border: 5px dashed red;
     text-align:center;
 }
 
@@ -8,7 +9,7 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width:400px;
+  width:200px;
 }
 
 /* The code below centers the text of all h2's on the page. */
@@ -16,14 +17,26 @@ h2 {
     text-align:center;
 }
 
+h3 {
+    color:red;
+    text-align:center;
+}
+
+h5{
+    text-align: center;
+}
 /* The code below aligns all the sections horizontally on the bottom. */
 .section-container {
     display:flex;
-    justify-content:space-between;
+    justify-content:space-around;
 }
 
 /* The code below a solid black border to section and puts space between them (the margin). */
 .section {
     border: 5px black solid;
     margin:5px;
+}
+
+body{
+    background-color: lightgoldenrodyellow;
 }
